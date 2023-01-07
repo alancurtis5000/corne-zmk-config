@@ -33,10 +33,10 @@
                 default_layer {
 			label = "DEF";
                         bindings = <
-   &kp ESC   &kp Q &kp W &kp E &kp R &kp T        &kp Y &kp U  &kp I    &kp O   &kp P    &kp BSPC
-   &kp SQT   &kp A &kp S &kp D &hm LCMD F &kp G   &kp H &hm LCMD J  &kp K     &kp L   &kp SEMI     &kp RET
-   &kp TAB &kp Z &kp X &kp C &kp V &kp B          &kp N &kp M  &kp COMMA &kp DOT   &kp FSLH    &kp FSLH 
-                  &kp N1  &kp N2 &kp N3           &kp N4 &kp N5  &kp N6
+   &none   &kp Q &kp W &kp E &kp R &kp T          &kp Y &kp U  &kp I    &kp O   &kp P    &none
+   &none   &kp A &kp S &kp D &hm LCMD F &kp G     &kp H &hm LCMD J  &kp K     &kp L   &kp SEMI     &none
+   &none   &kp Z &kp X &kp C &kp V &kp B          &kp N &kp M  &kp COMMA &kp DOT   &kp FSLH    &none 
+                &kp LSHIFT  &kp SPACE &kp N3      &to ARROWS_L  &kp ENTER  &kp BACKSPACE
                         >;
                 };
 
