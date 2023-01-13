@@ -10,6 +10,7 @@
 
 #define DEF 0 
 #define NAV 1 
+#define BLUE 2
 
 / {
   behaviors {
@@ -32,7 +33,7 @@ DEF_layer {
           &none       &kp Q      &kp W      &kp E      &kp R      &kp T      &kp Y      &kp U      &kp I      &kp O      &kp P     &none 
           &none       &kp A      &kp S      &kp D      &kp F      &kp G      &kp H      &kp J      &kp K      &kp L      &kp A     &none 
           &none       &kp Z      &kp X      &kp C      &kp V      &kp B      &kp N      &kp M      &lt NAV  A    &mo NAV      &to 1     &none 
-                                          &kp LSHIFT      &kp SPACE      &kp A      &kp A      &kp ENTER      &tog NAV
+                                          &kp LSHIFT      &kp SPACE      &kp A      &tog BLUE      &kp ENTER      &tog NAV
         >;
       };
         
@@ -45,6 +46,16 @@ NAV_layer {
                                           &to 0     &kp Q      &kp Q      &kp Q      &kp Q      &kp Q
         >;
       };
+      
+ BLUE_layer {
+			label = "BLUE";
+                bindings = <
+   &kp ESC  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_CLR            &none &none &none &none &none &kp BSPC
+   &none &none   &kp C_PP &kp C_VOL_DN &kp C_VOL_UP &kp C_BRI_UP                     &kp LEFT &kp DOWN &kp UP  &kp RIGHT &none &kp RET
+   &kp TAB &none   &none   &kp C_PREV &kp C_NEXT &kp C_BRI_DN                         &none &none &none &none &none &none 
+                    	     &kp LCMD &kp LSHFT   &to DEF                        &kp Q      &kp Q      &kp Q
+                        >;
+                };
         
   };
 };
