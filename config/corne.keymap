@@ -29,20 +29,20 @@ compatible = "zmk,keymap";
 DEF_layer {
         label = "DEF";
         bindings = <
-          &none      &kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y     &kp U     &kp I     &kp O     &kp P     &none 
-          &none      &kp A     &kp S     &kp D     &kp F     &kp G     &kp H     &kp J     &kp K     &kp L     &kp Q     &none 
-          &none      &kp Z     &kp X     &kp C     &kp V     &kp B     &kp N     &kp M     &kp Q     &kp Q     &kp Q     &none 
-                                         &kp Q     &kp Q     &kp Q     &kp Q     &kp Q     &kp Q
+          &none       &kp Q      &kp LEFT_SHIFT(W)      &kp LEFT_CONTROL(E)      &kp LEFT_ALT(R)      &kp LEFT_GUI(T)      &kp Y      &kp U      &kp I      &kp O      &kp P     &none 
+          &none       &kp A      &kp LEFT_CONTROL(LEFT_SHIFT(S))      &kp LEFT_ALT(LEFT_SHIFT(D))      &kp LEFT_GUI(LEFT_SHIFT(F))      &kp LEFT_GUI(LEFT_ALT(LEFT_CONTROL(LEFT_SHIFT(G))))      &kp H      &kp J      &kp K      &kp L      &kp Q     &none 
+          &none       &kp Z      &kp X      &kp C      &kp V      &kp B      &kp N      &kp M      &kp Q      &kp Q      &kp Q     &none 
+                                          &kp Q      &kp Q      &kp Q      &kp Q      &kp Q      &kp Q
         >;
       };
         
 NAV_layer {
         label = "NAV";
         bindings = <
-          &none      &kp Q     &kp Q     &kp Q     &kp Q     &kp Q     &kp Q     &kp Q     &kp Q     &kp Q     &kp Q     &none 
-          &none      &kp Q     &kp Q     &kp Q     &kp Q     &kp Q     &kp Q     &kp Q     &kp Q     &kp Q     &kp Q     &none 
-          &none      &kp Q     &kp Q     &kp Q     &kp Q     &kp Q     &kp Q     &kp Q     &kp Q     &kp Q     &kp Q     &none 
-                                         &kp Q     &kp Q     &kp Q     &kp Q     &kp Q     &kp Q
+          &none       &kp Q      &kp Q      &kp Q      &kp Q      &kp Q      &kp Q      &kp Q      &kp Q      &kp Q      &kp Q     &none 
+          &none       &kp Q      &kp Q      &kp Q      &kp Q      &kp Q      &kp Q      &kp Q      &kp Q      &kp Q      &kp Q     &none 
+          &none       &kp Q      &kp Q      &kp Q      &kp Q      &kp Q      &kp Q      &kp Q      &kp Q      &kp Q      &kp Q     &none 
+                                          &kp Q      &kp Q      &kp Q      &kp Q      &kp Q      &kp Q
         >;
       };
         
