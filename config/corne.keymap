@@ -36,7 +36,7 @@ DEF_layer {
         label = "DEF";
         bindings = <
           &none       &kp Q      &hm LSHIFT W    &hm LALT E        &hm LCTRL R      &hm LGUI T         &kp Y     &hm RCTRL U   &hm RALT I   &hm RSHIFT O     &kp P     &none 
-          &none       &kp A      &kp S          &lt NUMBERS D    &lt SYMBLEFT F    &kp G               &kp H    &lt SYMBRIGHT J   &kp K   &kp L    &lt NAV A     &none
+          &none       &kp A      &kp S          &lt NUMBERS D     &lt SYMBRIGHT F    &kp G              &kp H    &lt SYMBLEFT J   &kp K   &kp L    &lt NAV A     &none
          &none        &lt GLOBALS Z             &kp X             &kp C           &kp V                &kp B     &kp N   &kp M    &none   &none   &none   &none
                                           &kp LSHIFT      &kp SPACE      &to DEF            &kp A      &kp ENTER      &to NAV
         >;
