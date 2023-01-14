@@ -34,9 +34,9 @@ compatible = "zmk,keymap";
 DEF_layer {
         label = "DEF";
         bindings = <
-          &none       &kp Q      &kp W      &kp E      &kp R      &kp T      &kp Y      &kp U      &kp I      &kp O      &kp P     &none 
-          &none       &kp A      &kp S      &kp D      &kp F      &kp G      &kp H      &kp J      &kp K      &kp L      &kp A     &none 
-          &none       &kp Z      &kp X      &kp C      &kp V      &kp B      &kp N      &kp M      &kp A      &kp A      &kp A     &none 
+          &none   &hm LSHIFT W  &hm LALT E  &hm LCTRL R  &hm LGUI T  &kp Y     &hm RCTRT U   &hm RALT I   &hm RSHIFT O     &kp P     &none 
+          &none       &kp A      &kp S      &kp D         &kp F      &kp G      &kp H        &kp J        &kp K            &kp L      &kp A     &none 
+          &none       &kp Z      &kp X      &kp C         &kp V      &kp B      &kp N        &kp M        &kp A             &kp A      &kp A     &none 
                                           &kp LSHIFT      &kp SPACE      &to DEF      &kp A      &kp ENTER      &to NAV
         >;
       };
