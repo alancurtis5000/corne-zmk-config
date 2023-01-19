@@ -37,7 +37,7 @@ compatible = "zmk,keymap";
         label = " PC";
         bindings = <
           &none       &kp Q      &hm LSHIFT W      &hm LALT E      &hm LCTRL R      &kp T      &kp Y      &hm RCTRL U      &hm RALT I      &hm RSHIFT O      &kp P     &none 
-          &none       &kp A      &kp S      &lt  Numbers D      &lt Sym_Right F      &kp G      &kp H      &lt Sym_Left J      &kp K      &kp L      &hm mo none     &none 
+          &none       &kp A      &kp S      &lt Numbers D      &lt Sym_Right F      &kp G      &kp H      &lt Sym_Left J      &kp K      &kp L      &mo Nav     &none 
           &none       &lt Pc_util Z      &kp X      &kp C      &kp V      &kp B      &kp N      &kp M      &none      &none      &to  Mac     &none 
                                           &none      &kp SPACE      &kp LSHIFT      &none      &kp ENTER      &none
         >;
@@ -47,7 +47,7 @@ compatible = "zmk,keymap";
         label = " Mac";
         bindings = <
           &none       &kp Q      &hm LSHIFT W      &hm LALT E      &hm LGUI R      &kp T      &kp Y      &hm RGUI U      &hm RALT I      &hm RSHIFT O      &kp P     &none 
-          &none       &kp A      &kp S      &lt  Numbers D      &lt Sym_Right F      &kp G      &kp H      &lt Sym_Left J      &kp K      &kp L      &hm mo none     &none 
+          &none       &kp A      &kp S      &lt  Numbers D      &lt Sym_Right F      &kp G      &kp H      &lt Sym_Left J      &kp K      &kp L      &mo Nav     &none 
           &none       &lt Mac_util Z      &kp X      &kp C      &kp V      &kp B      &kp N      &kp M      &none      &none      &to  PC     &none 
                                           &none      &kp SPACE      &kp LSHIFT      &none      &kp ENTER      &none
         >;
