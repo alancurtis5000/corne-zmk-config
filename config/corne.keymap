@@ -1,14 +1,13 @@
+/*
+* Copyright (c) 2020 The ZMK Contributors 
+* SPDX-License-Identifier: MIT 
+*/ 
 
-    /*
-    * Copyright (c) 2020 The ZMK Contributors 
-    * SPDX-License-Identifier: MIT 
-    */ 
-    
-    #include <behaviors.dtsi> 
-    #include <dt-bindings/zmk/keys.h> 
-    #include <dt-bindings/zmk/bt.h> 
+#include <behaviors.dtsi> 
+#include <dt-bindings/zmk/keys.h> 
+#include <dt-bindings/zmk/bt.h> 
 
-    #define PC 0 
+#define PC 0 
 #define Mac 1 
 #define Numbers 2 
 #define Sym_Left 3 
@@ -18,17 +17,17 @@
 #define Mac_util 7 
 #define Nav 8 
     
-    / {
+/ {
     behaviors {
-    hm: homerow_mods {
-        compatible = "zmk,behavior-hold-tap";
-        label = "HOMEROW_MODS";
-        #binding-cells = <2>;
-        tapping-term-ms = <300>;
-        quick-tap-ms = <200>;
-        flavor = "tap-preferred";
-        bindings = <&kp>, <&kp>;
-    };
+        hm: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS";
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <200>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
     };
     keymap {
     compatible = "zmk,keymap";
@@ -124,5 +123,4 @@ Nav_layer {
           };
             
     };
-    };
-    
+};
